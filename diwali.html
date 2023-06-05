@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY DIPAWALI</title>
+    <link rel ="stylesheet" href="diwali.css">
+
+</head>
+<body>  
+    <div id="happy">
+        <span style="--i:1;">H</span>
+        <span style="--i:2;">a</span>
+        <span style="--i:3;">p</span>
+        <span style="--i:4;">p</span>
+        <span style="--i:5;">y</span>
+        <span style="--i:7;margin-left: 5vw;">D</span>
+        <span style="--i:8;">i</span>
+        <span style="--i:9;">w</span>
+        <span style="--i:10;">a</span>
+        <span style="--i:11;">l</span>
+        <span style="--i:12;margin-right: 5vw;">i</span>
+    </div><br>
+    <div class="me">
+   <p>To you, on your <span id="age"></span>th year, enjoy your day..!</p>
+    </div>
+        <script>
+            document.getElementById("age").innerHTML=localStorage.getItem("is_age");
+        </script>
+</body>
+</html>

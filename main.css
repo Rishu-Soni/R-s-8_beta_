@@ -1,0 +1,50 @@
+body
+{
+    background: rgb(179, 241, 241) ;
+}
+
+.box,.mail,.tele,.about
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    border-radius:10px;
+    background: white;
+    box-shadow: inset -8px -8px 8px #cbced1, inset 8px 8px 8px #ffffff;
+}
+.box:hover
+{
+    width: 22%;
+    background:rgb(0, 255, 255) ;
+}
+
+.top-text
+{
+    color: black;
+}
+
+.text-gray-600-body-font
+{
+    border-radius: 40px;
+    background: #b1e1e4;
+    box-shadow: 13px 13px 20px #2c3a48,
+    -13px -13px 20px #ffffff;
+}
+#logo
+{
+    border-radius: 20px;
+    background: white;
+}
+#head
+{
+    border-radius: 20px;
+    background: rgb(144, 255, 255);
+}
+
+#birthday,#diwali,#logout
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
